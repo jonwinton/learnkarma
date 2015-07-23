@@ -8,4 +8,6 @@
     Test.prototype.init = function () {
         console.log('HELLO!!!!');
     };
+
+    return Test;
 }())
