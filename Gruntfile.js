@@ -18,6 +18,7 @@ module.exports = function(grunt) {
                         dir: '../build-reports/'
                     }
                 },
+                //  ['progress', 'coverage'] <--- If you want a coverage report
                 reporters: ['progress', 'coverage']
             }
         }
