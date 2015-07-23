@@ -3,14 +3,15 @@
 'use strict';
 
 describe('Test class', function() {
+    // Get window instance of TESTING global
+    var TESTING = window.TESTING || {};
+    // Alias modules
+    var Test = TESTING.Test;
+    var DemoView = TESTING.DemoView;
 
     it('calls init when created', function() {
-        var TESTING = window.TESTING || {};
-        var Test = TESTING.Test;
         // setup a spy on the Test.init method to veryify that it was called
         spyOn(Test.prototype, 'init');
-
-
 
         // perform the code to be tested
         var test = new Test();
@@ -22,14 +23,8 @@ describe('Test class', function() {
     });
 
     it('creates a demo view', function() {
-        var TESTING = window.TESTING || {};
-        var Test = TESTING.Test;
-        var DemoView = TESTING.DemoView;
-
         // perform the code to be tested
         var test = new Test();
-
-        console.log(test);
 
         expect(test.demo instanceof DemoView).toEqual(true);
     });
