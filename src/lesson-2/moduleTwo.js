@@ -8,8 +8,6 @@ TESTING.Test = (function(DemoView){
     };
 
     Test.prototype.init = function () {
-        console.log('HELLO!!!!');
-
         this.demo = new DemoView();
     };
 

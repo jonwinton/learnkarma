@@ -9,7 +9,7 @@ TESTING.DemoView = (function(){
     };
 
     DemoView.prototype.womp = function () {
-        console.log('Got womped');
+        return 'womp';
     };
 
     return DemoView;
