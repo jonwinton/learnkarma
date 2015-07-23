@@ -1,8 +1,8 @@
 define(function(require, exports, module) { // jshint ignore:line
-    "use strict";
+    'use strict';
 
     var App = function() {
-
+        console.log('dsadf');
         this.init();
     };
 
