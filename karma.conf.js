@@ -5,7 +5,7 @@ module.exports = function(config) {
     config.set({
         // list of files to load in the browser
         files: [
-            '**/*.spec.js'
+            '**/*.js'
         ],
 
         // list of files to exclude
