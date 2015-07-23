@@ -39,7 +39,7 @@ module.exports = function(config) {
 
         // frameworks to use
         // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-        frameworks: ['jasmine'],
+        frameworks: ['jasmine', 'requirej'],
 
         // test results reporter to use
         // available reporters: https://npmjs.org/browse/keyword/karma-reporter
