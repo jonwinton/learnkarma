@@ -6,8 +6,13 @@ var firstModule = (function(){
         return string1 + string2;
     };
 
+    var add = function(num1, num2) {
+        return num1 + num2;
+    };
+
 
   return {
-      merge: merge
+      merge: merge,
+      add: add
   };
 }());
