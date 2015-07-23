@@ -19,7 +19,7 @@ module.exports = function(grunt) {
                     }
                 },
                 //  ['progress', 'coverage'] <--- If you want a coverage report
-                reporters: ['progress', 'coverage']
+                reporters: ['progress']
             }
         }
     });
