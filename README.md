@@ -10,4 +10,4 @@ It can probably be ignored. Seriously. But if you're not going to igore it...
 - Branch `feature/lesson-2` has a namespaced constructor that instantiates another constructor that passes tests.
 - Branch `feature/lesson-3` is under dev and should be a functioning RequireJS implementation
 
-## Development is in process on `lesson-3`
+## Basic test is passing on Lesson 3 (`feature/lesson-3`)
