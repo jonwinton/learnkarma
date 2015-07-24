@@ -5,7 +5,8 @@ module.exports = function(config) {
     config.set({
         // list of files to load in the browser
         files: [
-            '**/*.js'
+            'lesson-3/test-main.js',
+            { pattern: 'lesson-3/**/*.js', included: false }
         ],
 
         // list of files to exclude
