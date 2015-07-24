@@ -4,9 +4,8 @@ define(function(require, exports, module) { // jshint ignore:line
     describe('Application class', function() {
 
         var App = require('./App');
-        console.log(App);
 
-        // var DemoView = require('./views/DemoView');
+        var DemoView = require('./DemoView');
 
         it('calls init when created', function() {
             // setup a spy on the App.init method to veryify that it was called
@@ -21,12 +20,12 @@ define(function(require, exports, module) { // jshint ignore:line
             expect(App.prototype.init.calls.count()).toEqual(1);
         });
 
-        // it('creates a demo view', function() {
-        //     // perform the code to be tested
-        //     var app = new App();
-        //
-        //     expect(app.demoView instanceof DemoView).toEqual(true);
-        // });
+        it('creates a demo view', function() {
+            // perform the code to be tested
+            var app = new App();
+            console.log(app.demoView);
+            // expect(app.demoView instanceof DemoView).toEqual(true);
+        });
 
     });
 
