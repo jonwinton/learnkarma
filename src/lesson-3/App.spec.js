@@ -20,11 +20,18 @@ define(function(require, exports, module) { // jshint ignore:line
             expect(App.prototype.init.calls.count()).toEqual(1);
         });
 
+        it('tests param', function(){
+            var app = new App();
+
+
+            expect(app.test).toEqual(1);
+        });
+
         it('creates a demo view', function() {
             // perform the code to be tested
             var app = new App();
-            console.log(app.demoView);
-            // expect(app.demoView instanceof DemoView).toEqual(true);
+
+            expect(app.demoView instanceof DemoView).toEqual(true);
         });
 
     });
