@@ -8,6 +8,9 @@ It can probably be ignored. Seriously. But if you're not going to igore it...
 
 - Master branch has a folder inside `src` called `lesson-1`. It's a super, super basic module that passes tests.
 - Branch `feature/lesson-2` has a namespaced constructor that instantiates another constructor that passes tests.
-- Branch `feature/lesson-3` is under dev and should be a functioning RequireJS implementation
+- Branch `feature/lesson-3` is a basic RequireJS setup for testing modules. Read the commit messages for lessons learned in making it.
+- Branch `feature/lesson-4` is under dev and will **ideally** be a setup with Babel and RequireJS.
+- Branch `feature/lesson-5` is slated to be more of an exploration into testing against multiple browsers.
+- Branch `feature/lesson-6` is TBD
 
-## Basic test is passing on Lesson 3 (`feature/lesson-3`)
+## Branch `feature/lesson-4` is under dev
